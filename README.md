@@ -10,50 +10,15 @@
 
 في هذا المثال، نحاول تقليل دالة هدف بسيطة:
 
-f(x)=x12​+(x2​−0.05)2+x32​
-<img width="467" height="77" alt="image" src="https://github.com/user-attachments/assets/238ed68e-b9e2-4f70-805c-d4fc909644c5" />
 
-	​
+<img width="230" height="50" alt="image" src="https://github.com/user-attachments/assets/238ed68e-b9e2-4f70-805c-d4fc909644c5" />​
 
 
 مع الحدود التالية على المتغيرات:
 
-0
-≤
-𝑥
-1
-≤
-1
-0≤x
-1
-	​
+<img width="150" height="80" alt="image" src="https://github.com/user-attachments/assets/86e11a0f-e395-495b-96d3-85a27abf27a7" />
 
-≤1
 
-−
-1
-≤
-𝑥
-2
-≤
-1
-−1≤x
-2
-	​
-
-≤1
-
-0.5
-≤
-𝑥
-3
-≤
-1
-0.5≤x
-3
-	​
-
-≤1
 
 🛠️ المزايا
 
@@ -65,7 +30,7 @@ f(x)=x12​+(x2​−0.05)2+x32​
 
 📂 محتويات المشروع
 
-main.py → يحتوي على الكود الأساسي لتشغيل PSO على دالة الهدف.
+PSO.py → يحتوي على الكود الأساسي لتشغيل PSO على دالة الهدف.
 
 README.md → شرح مبسط وسهل الفهم للمشروع.
 
@@ -78,17 +43,24 @@ pip install scikit-opt matplotlib numpy
 
 تشغيل الكود:
 
-python main.py
+python PSO.py
 
 📊 مخرجات متوقعة
 
 عند التشغيل، سيطبع البرنامج أفضل حل وجدته الخوارزمية، مثل:
 
-PSO - best_x: [0.01, 0.05, 0.5]
-PSO - best_y: 0.002
+PSO - best_x: [0.   0.05 0.5 ] 
+
+PSO - best_y: [0.25]
 
 
 وسيتم عرض رسم بياني يوضح تطور أفضل قيمة خلال الأجيال.
+
+<img width="450" height="325" alt="image" src="https://github.com/user-attachments/assets/dd118926-ced3-4679-9071-1af79aff1009" />
+
+
+
+
 
 🌟 لماذا هذا المشروع؟
 
@@ -103,3 +75,22 @@ PSO - best_y: 0.002
 التصميم الهندسي
 
 مسائل الذكاء الاصطناعي والتحسين المستمر
+
+## 💡 نصيحة
+
+لتستفيد أكثر من هذا المشروع:
+
+جرب تغيير دالة الهدف أو إضافة متغيرات جديدة لرؤية كيفية تصرف الخوارزمية.
+
+عدّل معلمات PSO مثل pop و max_iter و c1/c2/w لتفهم تأثير كل منها على سرعة وتقارب الحل.
+
+قارن النتائج مع خوارزميات تحسين أخرى مثل DE أو GA لتتعلم أي الخوارزميات أفضل لكل نوع من المشاكل.
+
+تذكر دائمًا: خوارزميات التحسين تعتمد على التجربة والتكرار، لا تتوقع النتائج المثالية من المحاولة الأولى! 
+
+
+## 🏷️ الكلمات المفتاحية
+
+Particle Swarm Optimization, PSO, Optimization, Evolutionary Algorithm, Metaheuristic, Python, scikit-opt, Convergence, Fitness Function, Multi-dimensional Optimization, Swarm Intelligence, Computational Optimization, AI Optimization, Learning Algorithms, 
+
+تحسين السرب الجزيئي, تحسين الدوال, خوارزميات تطورية, الخوارزميات الاستكشافية, بايثون, التقارب, دالة اللياقة, تحسين متعدد الأبعاد, الذكاء الجماعي, التحسين الحاسوبي, تحسين الذكاء الاصطناعي, خوارزميات التعلم
