@@ -1,4 +1,4 @@
-## Particle Swarm Optimization (PSO) – تحسين السرب الجزيئي 🌟
+## Particle Swarm Optimization (PSO) – تحسين السرب الجزيئي  🐦
 
 هذا المشروع يعرض كيفية استخدام خوارزمية سرب الجسيمات (Particle Swarm Optimization – PSO) لحل مسائل تحسين (Optimization Problems) مع حدود على المتغيرات، باستخدام مكتبة scikit-opt.
 
